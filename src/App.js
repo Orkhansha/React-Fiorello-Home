@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import FooterFR from './components/common/FooterFR';
+import HeaderFR from './components/common/HeaderFR';
+import Fiorello from './components/home/Fiorello';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <HeaderFR />
+
+      <Fiorello />
+
+      <FooterFR />
+      
     </div>
   );
 }
 
+
+
 export default App;
+
+
+
+
